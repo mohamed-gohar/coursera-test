@@ -1,0 +1,90 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	background-color: maroon;
+	color: white;
+}
+
+/**header**/
+
+#header-nav {
+	background-color: orange;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	line-height: .74;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+#nav-list {
+	
+}
+
+#nav-list a {
+	text-align: center;
+	font-size: 1.2em;
+	color: maroon;
+}
+
+#nav-list a:hover {
+	background-color: white;
+}
+
+/**end header**/
+
+
+/**main-content**/
+#main-content h2 {
+	margin: 2px 0 50px;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.category-tile {
+	background-color: lightblue;
+	padding: 5px 15px ;
+	margin-bottom: 30px;
+	color: black;
+}
+.category-tile h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 0 0 5px;
+}
+
+
+/**extra small device**/
+
+@media (max-width: 767px) {
+	.category-tile {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+}
+
+
+
+
+
+
+
